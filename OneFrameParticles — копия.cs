@@ -6,7 +6,7 @@ public class OneFrameParticles : MonoBehaviour
     [SerializeField] private int framesCount = 3;
     private ParticleSystem.MainModule[] mains;
     private bool inited;
-      
+    
     public void OnEnable()
     {
         Init();
